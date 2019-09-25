@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    height: 50px;
+    width: 160px;
+}
+
+.container{
+    width: 50%;
+    margin:0 auto;
+    height: 500px;
+    /* background-color: black; */
+}
+
+.fb-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.fb-btn button{
+    margin-top:10px;
+    padding: 15px 90px;
+    background-color: #3B5998;
+    font-size: 18px;
+    border:none;
+    color: white;
+    border-radius:40px;
+}
+
+.mini-container{
+    width: 60%;
+    margin:0 auto;
+}
+
+.form-display{
+    display:flex;
+    flex-direction: column;
+}
+
+.data-input{
+    height: 48px;
+    margin-bottom: 20px;
+    border: 1px rgb(211, 211, 211) solid;
+    text-indent: 7px;
+}
+
+.birth{
+    display: flex;
+    justify-content: space-between;
+}
+
+.birth select{
+    width: 100px;
+}
